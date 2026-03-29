@@ -114,7 +114,6 @@ export default function Navbar() {
                   key={section}
                   onClick={() => handleNavLink(section)}
                   style={{
-                    background: 'none',
                     border: 'none',
                     cursor: 'pointer',
                     padding: '8px 14px',

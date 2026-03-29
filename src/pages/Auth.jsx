@@ -66,10 +66,10 @@ export default function Auth() {
     <div className="auth-page">
       {/* Background effects */}
       <div
-        className="glow-blob"
+        className="glow-blob auth-glow"
         style={{
-          width: 500,
-          height: 500,
+          width: 'min(500px, 90vw)',
+          height: 'min(500px, 90vw)',
           background: 'radial-gradient(circle, rgba(249,115,22,0.12) 0%, transparent 70%)',
           top: '10%',
           left: '50%',

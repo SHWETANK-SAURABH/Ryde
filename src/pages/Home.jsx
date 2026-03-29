@@ -59,16 +59,15 @@ export default function Home() {
           }} />
 
           {/* Glow */}
-          <div style={{
+          <div className="hero-glow" style={{
             position: 'absolute',
             top: '20%',
             left: '50%',
             transform: 'translateX(-50%)',
-            width: 700,
-            height: 400,
+            width: 'min(700px, 90vw)',
+            height: 'min(400px, 55vw)',
             background: 'radial-gradient(ellipse, rgba(249,115,22,0.12) 0%, transparent 70%)',
             filter: 'blur(40px)',
-            pointerEvents: 'none',
           }} />
 
           <div className="container" style={{ position: 'relative', zIndex: 1, paddingTop: 60, paddingBottom: 80 }}>
@@ -453,16 +452,15 @@ export default function Home() {
           id="testimonials"
           style={{ padding: '100px 0', position: 'relative', overflow: 'hidden' }}
         >
-          <div style={{
+          <div className="testimonial-glow" style={{
             position: 'absolute',
             bottom: 0,
             left: '50%',
             transform: 'translateX(-50%)',
-            width: 600,
-            height: 300,
+            width: 'min(600px, 90vw)',
+            height: 'min(300px, 45vw)',
             background: 'radial-gradient(ellipse, rgba(249,115,22,0.08) 0%, transparent 70%)',
             filter: 'blur(30px)',
-            pointerEvents: 'none',
           }} />
 
           <div className="container" style={{ position: 'relative' }}>
@@ -574,15 +572,14 @@ export default function Home() {
                   overflow: 'hidden',
                 }}
               >
-                <div style={{
+                <div className="cta-blob" style={{
                   position: 'absolute',
                   top: -60,
                   right: -60,
-                  width: 300,
-                  height: 300,
+                  width: 'min(300px, 55vw)',
+                  height: 'min(300px, 55vw)',
                   background: 'radial-gradient(circle, rgba(249,115,22,0.15), transparent)',
                   borderRadius: '50%',
-                  pointerEvents: 'none',
                 }} />
                 <h2
                   style={{

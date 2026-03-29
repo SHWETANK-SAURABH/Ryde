@@ -385,9 +385,58 @@ h1, h2, h3, h4, h5 {
 .toast-info { border-left: 3px solid var(--accent); }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   html { font-size: 15px; }
+  .container { padding: 0 20px; }
+}
+
+@media (max-width: 768px) {
+  html { font-size: 14px; }
   .container { padding: 0 16px; }
+  .section-label { font-size: 0.7rem; }
+  .tabs { flex-wrap: wrap; }
+  .tab { flex: 1 1 50%; width: 100%; text-align: center; }
+  .auth-page { padding: 32px 16px; }
+  .auth-page > div { width: 100%; max-width: 100%; }
+  .dashboard-page .container,
+  .admin-page .container { padding: 0 16px; }
+  .toast-container { right: 16px; bottom: 16px; }
+}
+
+@media (max-width: 640px) {
+  html { font-size: 13px; }
+  .section-label { font-size: 0.65rem; }
+  .page-wrapper { padding-top: 90px; }
+  .tabs { gap: 6px; }
+  .tab { font-size: 0.82rem; padding: 10px 12px; }
+}
+
+/* Decorative responsive helpers */
+.hero-glow,
+.testimonial-glow,
+.cta-blob,
+.auth-glow {
+  pointer-events: none;
+}
+
+.hero-glow {
+  width: min(700px, 90vw);
+  height: min(400px, 55vw);
+}
+
+.testimonial-glow {
+  width: min(600px, 90vw);
+  height: min(300px, 45vw);
+}
+
+.cta-blob {
+  width: min(300px, 55vw);
+  height: min(300px, 55vw);
+}
+
+.auth-glow {
+  width: min(500px, 90vw);
+  height: min(500px, 90vw);
 }
 
 /* Page-specific */
