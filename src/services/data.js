@@ -1,3 +1,11 @@
+import bikeSvg from '../assets/bike.svg'
+import activaPng from '../assets/activa.png'
+import hunterJpeg from '../assets/Hunter350.jpeg'
+import JupiterJpeg from '../assets/Jupiter.jpeg'
+import olaJpeg from '../assets/ola.jpeg'
+import pulsarJpeg from '../assets/pulsar.jpeg'
+import SplendorJpeg from '../assets/splendor.jpeg'
+
 export const BIKES = [
   {
     id: 'b1',
@@ -13,7 +21,7 @@ export const BIKES = [
     rating: 4.8,
     reviews: 124,
     description: 'The most trusted scooter for daily gig deliveries. Reliable, fuel-efficient, and easy to maneuver in city traffic.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
+    image: activaPng,
     features: ['GPS Tracking', 'USB Charging', 'Anti-lock Brakes', 'Digital Console'],
     color: '#e74c3c',
   },
@@ -31,7 +39,7 @@ export const BIKES = [
     rating: 4.9,
     reviews: 89,
     description: 'A legend reborn. Perfect for intercity gig runs with its powerful engine and premium comfort.',
-    image: 'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&q=80',
+    image: hunterJpeg,
     features: ['Tripper Navigation', 'Dual Channel ABS', 'USB Charging', 'Side Stand Indicator'],
     color: '#2c3e50',
   },
@@ -49,7 +57,7 @@ export const BIKES = [
     rating: 4.6,
     reviews: 201,
     description: 'Smart and spacious scooter with massive underseat storage. Ideal for food delivery and logistics.',
-    image: 'https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?w=600&q=80',
+    image: JupiterJpeg,
     features: ['SmartXonnect App', 'Eco Mode', 'Find My Scooter', 'External Fuel Fill'],
     color: '#8e44ad',
   },
@@ -67,7 +75,7 @@ export const BIKES = [
     rating: 4.7,
     reviews: 156,
     description: 'High-performance sports bike for the power gig worker. Handles highways and urban grids with equal ease.',
-    image: 'https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=600&q=80',
+    image: pulsarJpeg,
     features: ['Liquid Cooled Engine', 'Single Channel ABS', 'Backlit Console', 'LED DRL'],
     color: '#e67e22',
   },
@@ -85,7 +93,7 @@ export const BIKES = [
     rating: 4.5,
     reviews: 312,
     description: 'Zero emissions, zero fuel costs. The future of gig delivery with massive range and smart connectivity.',
-    image: 'https://images.unsplash.com/photo-1571333250630-f0230c320b6d?w=600&q=80',
+    image: olaJpeg,
     features: ['Move OS 3', 'Reverse Mode', 'Proximity Lock', 'Cruise Control', 'Party Mode'],
     color: '#27ae60',
   },
@@ -103,7 +111,7 @@ export const BIKES = [
     rating: 4.4,
     reviews: 445,
     description: 'The most economical pick. Legendary fuel efficiency makes it the #1 choice for budget-conscious gig workers.',
-    image: 'https://images.unsplash.com/photo-1558980664-3a031cf67ea8?w=600&q=80',
+    image: SplendorJpeg,
     features: ['i3S Technology', 'Side Stand Indicator', 'USB Mobile Charger', 'Alloy Wheels'],
     color: '#c0392b',
   },

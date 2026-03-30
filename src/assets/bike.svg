@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none">
+  <defs>
+    <linearGradient id="wheelGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" rx="40" fill="#0b0d14"/>
+  <circle cx="170" cy="360" r="90" fill="url(#wheelGrad)" opacity="0.15"/>
+  <circle cx="470" cy="360" r="90" fill="url(#wheelGrad)" opacity="0.15"/>
+  <circle cx="170" cy="360" r="60" fill="#111827"/>
+  <circle cx="470" cy="360" r="60" fill="#111827"/>
+  <circle cx="170" cy="360" r="22" fill="#f97316"/>
+  <circle cx="470" cy="360" r="22" fill="#f97316"/>
+  <path d="M150 360h-40c-10 0-18-8-18-18v-20c0-10 8-18 18-18h40" stroke="#9ca3af" stroke-width="16" stroke-linecap="round"/>
+  <path d="M510 360h40c10 0 18-8 18-18v-20c0-10-8-18-18-18h-40" stroke="#9ca3af" stroke-width="16" stroke-linecap="round"/>
+  <path d="M190 360h150l60-58 40-26 24-8" stroke="#f97316" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M350 280c10-16 24-40 48-54 22-13 52-14 82-8" stroke="#f97316" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <path d="M260 280c12-20 34-52 69-70 40-20 82-14 120 6" stroke="#fbbf24" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M180 300c-10-10-16-25-16-40 0-40 32-72 72-72h66" stroke="#e5e7eb" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M450 220c0-20-12-34-30-34h-38" stroke="#e5e7eb" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M320 232h60c12 0 20 8 20 20v24" stroke="#e5e7eb" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M180 300h100" stroke="#9ca3af" stroke-width="14" stroke-linecap="round"/>
+  <path d="M318 320h78" stroke="#9ca3af" stroke-width="14" stroke-linecap="round"/>
+  <path d="M160 360h320" stroke="#374151" stroke-width="24" stroke-linecap="round"/>
+  <path d="M140 150c0-12 10-22 22-22h160c12 0 22 10 22 22v8" stroke="#9ca3af" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M200 130c0-14 11-25 25-25h80" stroke="#f97316" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <circle cx="240" cy="170" r="14" fill="#f97316"/>
+  <circle cx="380" cy="170" r="14" fill="#f97316"/>
+</svg>
